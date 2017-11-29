@@ -1,0 +1,16 @@
+{
+  "name": "async-file-processing",
+  "version": "1.0.0",
+  "description": "lab-class-03",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest -i --coverage",
+    "lint": "eslint ."
+  },
+  "author": "Pedja Josifovic",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^4.12.0",
+    "jest": "^21.2.1"
+  }
+}
