@@ -26,4 +26,10 @@ describe('reader.test.js', () => {
       done();
     });
   });
+  test('If invalid file paths order is not correct, error will be thrown', (done) => {
+    fileReader.readFile([`${__dirname}/../assets/file2.txt`, `${__dirname}/../assets/file1.txt`, `${__dirname}/../assets/file3.txt`], (error) => {
+      expect(error).toBeNull();
+      done();
+    });
+  });
 });
